@@ -1,0 +1,162 @@
+.main-container {
+  background-color: #1F2937;
+  padding: 12px;
+  border: 0px;
+  display: flex;
+  /* Add any additional styling for the main container if needed */
+}
+
+.flex-element {
+  display: flex;
+  flex: 1;
+}
+
+.flex-element div {
+  background: #1F2937;
+  border: 0px solid rgb(17, 63, 44);
+  height: 100px;
+  flex: 1;
+}
+
+.flex-element .one {
+  flex: 0 0 50%; /* The first box from the right with 50% width */
+}
+
+.flex-element .two,
+.flex-element .three,
+.flex-element .four {
+  text-align: right;
+}
+
+.font-style-1 { /* header logo text */
+  font-family: 'Roboto', sans-serif;
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold; /* You can use 'bold' or a numeric value like 700 */
+}
+ 
+.font-style-2 { /* header link text */
+  font-family: 'Roboto', sans-serif;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: normal; /* You can use 'bold' or a numeric value like 700 */
+}
+
+
+/*here is the first section in main */
+
+.main-section {
+  padding: 12px;
+  background-color: #1F2937; /* Adjust the background color as needed */
+  /* Add any additional styling for the main section if needed */
+}
+
+.two-elements-container {
+  display: flex;
+  /* Add any additional styling for the two-elements container if needed */
+}
+
+.left-element {
+  flex: 1;
+  padding: 0px;
+  background-color: #1F2937; /* Adjust the background color as needed */
+  color: #F9FAF8; /* Adjust the text color as needed */
+}
+
+.row {
+  margin-bottom: 8px;
+  /* Add any additional styling for the rows if needed */
+}
+
+.awesome {
+  margin-bottom: 8px;
+  /* Add any additional styling for the rows if needed */
+}
+
+.right-element {
+  flex: 1;
+  height: 4cm;
+  position: relative; /* Added for positioning the image */
+}
+
+.font-style-3 { /* header link text */
+  font-family: 'Roboto', sans-serif;
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 700; /* You can use 'bold' or a numeric value like 700 */
+}
+
+.font-style-4 { /* header link text */
+  font-family: 'Roboto', sans-serif;
+  color: #0F1621;
+  font-size: 32px;
+  font-weight: 700; /* sYou can use 'bold' or a numeric value like 700 */
+}
+
+/* Add this to your existing CSS or create a new file and link it in your HTML */
+.signup-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  /* Add any additional styling for the button if needed */
+}
+
+.signup-button:hover {
+  background-color: #0F1621; /* Change the background color on hover */
+}
+
+.right-element img {
+  width: 100%; /* Make the image fill the container width */
+  height: 100%; /* Set a fixed height equal to the right side */
+  object-fit: cover; /* Clip the image if it exceeds the container */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.divider-1 {
+  padding: 48px;
+  background-color: #FFFFFF; 
+  text-align: center;
+  /* Adjust the background color as needed */
+  /* Add any additional styling for the main section if needed */
+}
+
+.container {
+  height: 140px;
+  padding: 0px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+
+
+}
+
+.item1 {
+  width: 120px;
+  height: 120px;
+  border: 4px solid #3882F6;
+  background: white;
+  border-radius: 8px; /* Rounded corners */
+ 
+}
+
+.item2 {
+  width: 120px;
+  height: 120px;
+  border: 4px solid white;
+  background: white;
+}
+
+.font-style-5 { /* header link text */
+  font-family: 'Roboto', sans-serif;
+  color: #1F2937;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal; /* You can use 'bold' or a numeric value like 700 */
+}
